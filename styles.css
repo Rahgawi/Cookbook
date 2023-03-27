@@ -1,0 +1,33 @@
+:root {
+    --green1: #639c41;
+    --green2: #90bb38;
+    --green3: #c7d544;
+    --white: #d9d9d9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-montez {
+    font-family: "Montez", sans-serif;
+}
+
+.font-caps {
+    text-transform: uppercase;
+}
+
+.head1 {
+    font-family: "Montez", sans-serif;
+    font-size: 3rem;
+}
+
+.head2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
