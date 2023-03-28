@@ -31,3 +31,32 @@
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    min-height: 2rem;
+}
+
+.headerLinks {
+    display: flex;
+    margin: 0;
+}
+
+.linkList {
+    display: flex;
+}
+
+header nav li, a {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 1rem;
+    color: white;
+}
