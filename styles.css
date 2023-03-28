@@ -25,6 +25,7 @@
 .head1 {
     font-family: "Montez", sans-serif;
     font-size: 3rem;
+    color: var(--green1);
 }
 
 .head2 {
@@ -54,9 +55,111 @@ header nav {
     display: flex;
 }
 
-header nav li, a {
+header nav li {
     list-style: none;
     text-decoration: none;
     padding-right: 1rem;
     color: white;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding-right: 1rem;
+    color: white;
+}
+
+.login i {
+    padding-right: 0.5rem;
+}
+
+header a:hover {
+    color: var(--green2);
+}
+
+.searchSection {
+    display: flex;
+    min-height: 5rem;
+    justify-content: center;
+    margin-top: 0rem;
+    background-color: var(--white);
+    padding: 1rem;
+}
+
+.searchSection img {
+    max-height: 5rem;
+    /* padding-left: 5rem; */
+    /* margin-right: auto; */
+}
+
+.searchSection a {
+    padding-left: 5rem;
+    margin-right: auto;
+}
+
+.searchBar {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: auto;
+}
+
+.input-group {
+    color: black;
+}
+
+.stageSection {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, rgba(99,156,64,0.403788515406162) 0%, rgba(199,213,68,0.26934523809523814) 57%, rgba(217,217,217,0.10968137254901966) 87%), url(https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--green3);
+    height: 30rem;
+    /* margin-top: 1rem; */
+    padding-top: 5rem;
+    background-position: center;
+}
+
+.stageText {
+    padding-left: 5rem;
+    padding-top: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.socialColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin:0;
+}
+
+.socialColumn a {
+    margin: 0;
+    padding: 0;
+}
+
+.socialColumn img {
+    width: 4rem;
+    transition: 0.2s;
+}
+
+.socialColumn img:hover {
+    opacity: 0.8;
+}
+
+.stageText button {
+    /* padding: 2rem; */
+    width: 15rem;
+    height: 4rem;
+    background-color: transparent;
+    border-color: var(--green3);
+    border-style: solid;
+    color: white;
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+.stageText button:hover {
+    background-color: rgba(199,213,68,0.26934523809523814);
 }
