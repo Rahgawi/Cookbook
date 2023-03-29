@@ -32,7 +32,6 @@
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -162,7 +161,9 @@ header a:hover {
 
 .stageText button:hover {
     background-color: rgba(199,213,68,0.26934523809523814);
+    font-size: 2.5rem;
 }
+
 /*footer*/
 
 footer{
