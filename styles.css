@@ -167,15 +167,35 @@ header a:hover {
 
 /* home explore help  profile nav */
 
+a{
+    text-decoration: none;
+}
+
+ ul li{
+    
+    list-style: none;
+}
+
 .filterNAV{
     display: flex;
     padding: 4px;
 }
 
+.galleryNav ul{
+    display: flex;
+    
+
+}
+
+.galleryNav ul li{
+    padding: 20px;
+}
 
 .galleryNav ul {
     text-decoration: none;
 }
+
+
 
 .imgkrid{
     display: grid;
