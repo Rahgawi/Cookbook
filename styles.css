@@ -183,23 +183,28 @@ a{
 
 .galleryNav ul{
     display: flex;
-    
+    margin-left: 300px;
+
+
 
 }
 
 .galleryNav ul li{
-    padding: 20px;
+    padding: 50px;
 }
 
 .galleryNav ul {
     text-decoration: none;
 }
 
-
+.leftlinks{
+    position: absolute;
+}
 
 .imgkrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 30%;
 }
 
 
@@ -209,12 +214,9 @@ a{
 /*footer*/
 
 footer{
-
+    margin-top: 500px;
     background-color: black;
-    display: flex;
-    
-
-    
+    display: flex;    
 }
 
  footer {
