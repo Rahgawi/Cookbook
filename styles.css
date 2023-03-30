@@ -163,6 +163,28 @@ header a:hover {
     background-color: rgba(199,213,68,0.26934523809523814);
     font-size: 2.5rem;
 }
+/* gallery start */
+
+/* home explore help  profile nav */
+
+.filterNAV{
+    display: flex;
+    padding: 4px;
+}
+
+
+.galleryNav ul {
+    text-decoration: none;
+}
+
+.imgkrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+
+/* gallery ends */
 
 /*footer*/
 
