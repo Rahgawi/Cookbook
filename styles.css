@@ -186,6 +186,66 @@ header a:hover {
 
 /* gallery ends */
 
+/*recipe page start*/
+
+.recipeHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.recipeImgWrap {
+    flex-basis: 80%;
+}
+
+.recipeHeadContent img {
+    /* width: 60vw;
+    height: 30vw; */
+    object-fit: cover;
+    max-width: 90%;
+    height: auto;
+    /* vertical-align: middle; */
+}
+
+.recipeCat {
+    padding-bottom: 0rem;
+    padding-left: 0;
+}
+
+.recipeHeadContent {
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+
+
+.recipeIngredients {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Zutaten Tabelle*/
+
+.recipeIngredients th {
+    font-family: "Montserrat", sans-serif;
+    column-gap: 2rem;
+}
+
+.tableLeft {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.tableRight {
+    text-align: left;
+}
+
+/*recipe page end*/
+
 /*footer*/
 
 footer{
