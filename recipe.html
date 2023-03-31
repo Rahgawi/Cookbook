@@ -51,75 +51,94 @@
         </span>
     </header>
     <section class="recipeHeader">
-        <div class="recipeHeadContent">
-            <div class="recipeImgWrap">
-                <img src="image/pancakes.jpg" alt="Pancakes">
-            </div>    
-            <div class="recipeHeaderTxt">
-                <p class="head1 recipeCat">Dessert | Süßes</p>
-                <p class="head2 recipeName">Pancakes mit Ahornsirup</p>
-                <p class="font-montserrat recipeSub">IN NUR 5 MINUTEN</p>
+        <div class ="recipeWrapper">
+            <div class="recipeHeadContent">
+                <div class="recipeHeaderTxt">
+                    <p class="head1 recipeCat recipeOverlay">Dessert | Süßes</p>
+                    <p class="head2 recipeName recipeImgFont recipeOverlay">Pancakes mit Ahornsirup</p>
+                    <p class="font-montserrat recipeSub recipeImgFont recipeOverlay">IN NUR 5 MINUTEN</p>
+                </div>
             </div>
+            <div class="recipeDesc">
+                <div class="recipeRating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="font-montserrat recipeDescription">Super fluffig, super lecker! Starte deinen Tag doch mal mit Buttermilch-Pancakes - wahlweise mit Ahornsirup oder Konfitüre. The American Way of Frühstück.</p>
+            </div>
+            <hr>
         </div>
-        <!-- <div class="socialColumn">
-            <a href="#facebook"><img src="image/fb.png" alt="Facebook Icon"></a>
-            <a href="#youtube"><img src="image/yt.png" alt="Youtube Icon"></a>
-        </div> -->
-        <div class="recipeRating">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-        </div>
-        <p class="font-montserrat recipeDescription">Super fluffig, super lecker! Starte deinen Tag doch mal mit Buttermilch-Pancakes - wahlweise mit Ahornsirup oder Konfitüre. The American Way of Frühstück.</p>
     </section>
-
-    <section class="recipeIngredients">
-        <h1 class="head1">Zutaten</h1>
-        <p>Für <input type="text" default="2"> Personen</p>
-        <table>
-            <tr>
-                <th class="tableLeft">Menge</th>
-                <th class="tableRight">Zutaten</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">2</th>
-                <th class="tableRight">Eier</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">50g</th>
-                <th class="tableRight">Butter</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">250ml</th>
-                <th class="tableRight">Buttermilch</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">175g</th>
-                <th class="tableRight">Mehl</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">1/2 TL</th>
-                <th class="tableRight">Natron</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">1/2 TL</th>
-                <th class="tableRight">Backpulver</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">1/2 TL</th>
-                <th class="tableRight">Salz</th>
-            </tr>
-            <tr>
-                <th class="tableLeft">5EL</th>
-                <th class="tableRight">Zucker</th>
-            </tr>
-            <tr>
-                <th class="tableLeft"></th>
-                <th class="tableRight">Fett zum Braten</th>
-            </tr>
-        </table>
+    
+    <section class="recipeContent">
+        <div class="recipeIngredients">
+            <h1 class="head1">Zutaten</h1>
+            <p class="font-montserrat">Für <input type="text" value="2"> Personen</p>
+            <table>
+                <tr>
+                    <th class="tableLeft">Menge</th>
+                    <th class="tableRight">Zutaten</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">2</th>
+                    <th class="tableRight">Eier</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">50g</th>
+                    <th class="tableRight">Butter</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">250ml</th>
+                    <th class="tableRight">Buttermilch</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">175g</th>
+                    <th class="tableRight">Mehl</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Natron</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Backpulver</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Salz</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">5EL</th>
+                    <th class="tableRight">Zucker</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft"></th>
+                    <th class="tableRight">Fett zum Braten</th>
+                </tr>
+            </table>
+        </div>
+        <div class="recipeSteps">
+            <h1 class="head1">Zubereitung</h1>
+            <ol>
+                <li><b>Schüssel hinstellen</b>
+                    <p>Eine ausreichend große Schüssel mit Griff heraussuchen und hinstellen.</p>
+                </li>
+                <li><b>Eier aufschlagen</b>
+                    <p>Die Eier aufschlagen und mit der Butter und Buttermilch, dem Mehl und den restlichen Zutaten in die Schüssel geben.</p>
+                </li>
+                <li><b>Alles verrühren</b>
+                    <p>Erst kurz auf niedriger Stufe anrühren. Dann alles auf höchster Stufe mindestens 50 Minuten zu einer glatten Masse verrühren</p>
+                </li>
+                <li><b>Braten & Genießen</b>
+                    <p>Den Pancake Teig in die Pfanne geben und entspannt braten.</p>
+                    <p>Anschließend auf Tellern servieren und genießen!</p>
+                </li>
+            </ol>
+        </div>
+        
     </section>
 
 </body>
