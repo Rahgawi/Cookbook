@@ -210,10 +210,14 @@ a{
     /* position: absolute; */
 }
 
-.imgkrid{
+.imgkrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    margin-left: 30%;
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* object-fit: scale-down; */
+    /* width: 50vh; */
+
 }
 
 /* frames bilder in cover!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
