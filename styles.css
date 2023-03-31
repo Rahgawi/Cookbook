@@ -225,34 +225,32 @@ footer{
 
  footer {
     /* ....... */
-    border:2px solid #ff0000;
-    display: flex;
-    align-items: center;
-}
-
- .group-item{
-    display: flex;
-   flex-direction: column;
-
-}
-
- footer .list-item{
-
-    display: flex;
-    justify-content: center;
-    list-style: none;
     
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 1rem;
 }
- footer .list-item-title{
-    font-weight: 400;
-    font-size: 12px;
-    margin-top: 18px; 
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
+footer h1{
     font-size: 14px;
+}
+footer h2{
+    font-size: 16px;
+    color: white;
+}
+input{
+    background-color: transparent;
+}
+
+footer button{
+    min-width: 2rem;
+    max-width: 4rem;
+    background-color: transparent;
+    color: white;
 
 }
 
+ 
 footer a{
     font-size: 12px;
     margin-bottom: 12px;
@@ -260,8 +258,15 @@ footer a{
   
   }
 
+  footer img {
+    max-height: 5rem;
+    display: absolute;
+    justify-content: center;
+    margin-top: 5%;
+  }
   footer a:hover{
     text-decoration: underline;
   }
+
 
 
