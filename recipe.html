@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montez" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cookbook - Recipe</title>
+
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="linkList">
+                <ul class="font-montserrat headerLinks">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Recipes">Recipes</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#DayRecipe">Recipe of the Day</a></li>
+                </ul>
+            </div>
+            ,
+            <div class="login">
+                <a href="#login"><i class="bi bi-box-arrow-in-right" style="color: #639c41;"></i>Register</a>
+                <a href="#register"><i class="bi bi-person-fill" style="color: #639c41;"></i>Login</a>
+            </div>
+        </nav>
+        <span class="searchSection">
+            <a href="index.html"><img src="image/cook.png" alt="Cookbook Logo"></a>
+            <span class="searchBar">
+                <div class="input-group">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">All Categories</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Dessert</a></li>
+                        <li><a class="dropdown-item" href="#">Meat</a></li>
+                        <li><a class="dropdown-item" href="#">vegan</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                            class="bi bi-search"></i></button>
+                </div>
+            </span>
+        </span>
+    </header>
+    <section class="recipeHeader">
+        <div class ="recipeWrapper">
+            <div class="recipeHeadContent">
+                <div class="recipeHeaderTxt">
+                    <p class="head1 recipeCat recipeOverlay">Dessert | Süßes</p>
+                    <p class="head2 recipeName recipeImgFont recipeOverlay">Pancakes mit Ahornsirup</p>
+                    <p class="font-montserrat recipeSub recipeImgFont recipeOverlay">IN NUR 5 MINUTEN</p>
+                </div>
+            </div>
+            <div class="recipeDesc">
+                <div class="recipeRating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p class="font-montserrat recipeDescription">Super fluffig, super lecker! Starte deinen Tag doch mal mit Buttermilch-Pancakes - wahlweise mit Ahornsirup oder Konfitüre. The American Way of Frühstück.</p>
+            </div>
+            <hr>
+        </div>
+    </section>
+    
+    <section class="recipeContent">
+        <div class="recipeIngredients">
+            <h1 class="head1">Zutaten</h1>
+            <p class="font-montserrat">Für <input type="text" value="2"> Personen</p>
+            <table>
+                <tr>
+                    <th class="tableLeft">Menge</th>
+                    <th class="tableRight">Zutaten</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">2</th>
+                    <th class="tableRight">Eier</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">50g</th>
+                    <th class="tableRight">Butter</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">250ml</th>
+                    <th class="tableRight">Buttermilch</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">175g</th>
+                    <th class="tableRight">Mehl</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Natron</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Backpulver</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">1/2 TL</th>
+                    <th class="tableRight">Salz</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft">5EL</th>
+                    <th class="tableRight">Zucker</th>
+                </tr>
+                <tr>
+                    <th class="tableLeft"></th>
+                    <th class="tableRight">Fett zum Braten</th>
+                </tr>
+            </table>
+        </div>
+        <div class="recipeSteps">
+            <h1 class="head1">Zubereitung</h1>
+            <ol>
+                <li><b>Schüssel hinstellen</b>
+                    <p>Eine ausreichend große Schüssel mit Griff heraussuchen und hinstellen.</p>
+                </li>
+                <li><b>Eier aufschlagen</b>
+                    <p>Die Eier aufschlagen und mit der Butter und Buttermilch, dem Mehl und den restlichen Zutaten in die Schüssel geben.</p>
+                </li>
+                <li><b>Alles verrühren</b>
+                    <p>Erst kurz auf niedriger Stufe anrühren. Dann alles auf höchster Stufe mindestens 50 Minuten zu einer glatten Masse verrühren</p>
+                </li>
+                <li><b>Braten & Genießen</b>
+                    <p>Den Pancake Teig in die Pfanne geben und entspannt braten.</p>
+                    <p>Anschließend auf Tellern servieren und genießen!</p>
+                </li>
+            </ol>
+        </div>
+        
+    </section>
+
+</body>
+</html>
