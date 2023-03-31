@@ -421,9 +421,11 @@ footer button{
     background-color: transparent;
     color: white;
 
+
 }
 footer{
     padding-top: 1rem;
+    
 }
 
 
@@ -433,18 +435,23 @@ footer a{
     text-decoration: none;
     color: white;
    
-  
   }
 
   footer img {
     max-height: 5rem;
-    display: absolute;
-    justify-content: center;
-    margin-top: 5%;
+   
   }
   footer a:hover{
     
     color: var(--green2);
+  }
+  
+  .icons :hover{
+    transform: scale(1.0s);
+  }     
+  .icons{
+    transition: transform 0.3s;
+    
   }
 
 
