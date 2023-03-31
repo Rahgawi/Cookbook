@@ -71,6 +71,16 @@ header nav li a {
     padding-right: 0.5rem;
 }
 
+.login a {
+    text-decoration: none;
+    padding-right: 1rem;
+    color: white;
+}
+
+.login {
+    padding-right: 2rem
+}
+
 header a:hover {
     color: var(--green2);
 }
@@ -86,8 +96,6 @@ header a:hover {
 
 .searchSection img {
     max-height: 5rem;
-    /* padding-left: 5rem; */
-    /* margin-right: auto; */
 }
 
 .searchSection a {
@@ -97,13 +105,15 @@ header a:hover {
 
 .searchBar {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-right: auto;
 }
 
 .input-group {
     color: black;
+    max-width: 30rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
 
 .stageSection {
@@ -114,7 +124,6 @@ header a:hover {
     background-repeat: no-repeat;
     background-color: var(--green3);
     height: 30rem;
-    /* margin-top: 1rem; */
     padding-top: 5rem;
     background-position: center;
 }
@@ -198,23 +207,174 @@ a{
 }
 
 .leftlinks{
-    position: absolute;
+    /* position: absolute; */
 }
 
-.imgkrid{
+.imgkrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    margin-left: 30%;
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* object-fit: scale-down; */
+    /* width: 50vh; */
+
 }
 
+/* frames bilder in cover!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+.gallerywrapper{
+    display: flex;
+}
 
 /* gallery ends */
+
+/*recipe page start*/
+
+.recipeHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    flex-basis: 30rem;
+    /* max-width: 50vw; */
+    flex-grow: 1;
+}
+
+.recipeWrapper {
+    max-width: 60vw;
+    min-width: 30rem;
+}
+
+.recipeHeaderTxt {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.3519782913165266) 0%, rgba(141,141,141,0.16150210084033612) 38%, rgba(252,252,252,0) 100%), url(image/pancakes.jpg);
+    object-fit: cover;
+    padding-bottom: 10vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0rem;
+    transition: 0.5s;
+}
+
+hr {
+    border-top: 5px dotted var(--green2);
+  }
+
+.recipeHeaderTxt p {
+    transition: 0.5s;
+}
+
+/* .recipeHeaderTxt:hover {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(141,141,141,0.0) 38%, rgba(252,252,252,0) 100%), url(image/pancakes.jpg);
+} */
+
+.recipeHeaderTxt:hover p {
+    opacity: 0;
+}
+
+.recipeImgFont {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.recipeHeadContent img {
+    /* width: 60vw;
+    height: 30vw; */
+    object-fit: cover;
+    max-width: 90%;
+    height: auto;
+    /* vertical-align: middle; */
+}
+
+.recipeCat {
+    padding-bottom: 10vh;
+    padding-left: 0;
+}
+
+.recipeName {
+    padding-bottom: 0;
+    margin:0;
+}
+
+.recipeSub {
+    margin:0;
+}
+
+.recipeHeadContent {
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+
+.recipeIngredients {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeDesc {
+    max-width: 55vw;
+
+}
+
+/*Zutaten Tabelle*/
+
+.recipeIngredients th {
+    font-family: "Montserrat", sans-serif;
+    column-gap: 2rem;
+}
+
+.tableLeft {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.tableRight {
+    text-align: left;
+}
+
+.recipeIngredients input {
+    max-width: 2rem;
+    text-align: center;
+}
+
+.recipeIngredients {
+    align-items: flex-start;
+}
+
+.recipeContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.recipeSteps {
+    max-width: 20vh;
+    gap: 20rem;
+}
+
+.recipeSteps li {
+    font-family: "Montez", sans-serif;
+    font-size: 2rem;
+    color: var(--green2)
+}
+
+.recipeSteps p, .recipeSteps b {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+/*recipe page end*/
 
 /*footer*/
 
 footer{
-    margin-top: 500px;
+    /* margin-top: 500px; */
     background-color: black;
     display: flex;    
 }
