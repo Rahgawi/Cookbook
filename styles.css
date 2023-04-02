@@ -415,13 +415,30 @@ footer{
     justify-content: center;
     column-gap: 1rem;
 }
-footer h1{
-    font-size: 14px;
+ .media h1{
+    font-size: 2rem;
+    
+    
 }
+.media{
+ padding-left: 1rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.letter{
+ display: flex;
+ flex-wrap: nowrap;
+}
+
 footer h2{
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
+
+    
 }
+footer
 input{
     background-color: transparent;
 }
@@ -432,24 +449,37 @@ footer button{
     background-color: transparent;
     color: white;
 
+
+}
+footer{
+    padding-top: 1rem;
+    
 }
 
- 
+
 footer a{
     font-size: 12px;
     margin-bottom: 12px;
     text-decoration: none;
-  
+    color: white;
+   
   }
 
   footer img {
     max-height: 5rem;
-    display: absolute;
-    justify-content: center;
-    margin-top: 5%;
+   
   }
   footer a:hover{
-    text-decoration: underline;
+    
+    color: var(--green2);
+  }
+  
+  .icons :hover{
+    transform: scale(1.0s);
+  }     
+  .icons{
+    transition: transform 0.3s;
+    
   }
 
 
