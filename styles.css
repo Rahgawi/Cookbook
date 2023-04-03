@@ -441,6 +441,8 @@ footer h2{
 footer
 input{
     background-color: transparent;
+    border-style: 0.5rem ;
+    border-color: lightgray;
 }
 
 footer button{
@@ -479,6 +481,7 @@ footer a{
   }     
   .icons{
     transition: transform 0.3s;
+    padding-top: 0.5rem;
     
   }
 
