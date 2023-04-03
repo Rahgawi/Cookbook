@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montez" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     <title>Cookbook</title>
 
 </head>
@@ -25,10 +26,9 @@
         <nav>
             <div class="linkList">
                 <ul class="font-montserrat headerLinks">
-                    <li><a href="#Home">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#Recipes">Recipes</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#DayRecipe">Recipe of the Day</a></li>
+                    <li><a href="recipe.html">Recipe of the Day</a></li>
                 </ul>
             </div>
             <div class="login">
@@ -54,7 +54,7 @@
         <div class="stageSection">
             <div class="stageText">
                 <p class="head2">The Only <b>Cookbook</b></p>
-                <button class="stageButton">Recipes</button>
+                <button onclick="window.location.href='#Recipes'" class="stageButton">Recipes</button>
             </div>
             <div class="socialColumn">
                 <a href="#facebook"><img src="image/fb.png" alt="Facebook Icon"></a>
@@ -66,7 +66,7 @@
 
     </header>
     <!-- gallery start -->
-    <gallery class="gallery">
+    <gallery class="gallery" id="Recipes">
 
         <div class="filterNAV">
             <h2 class="headsgallery">Filter Recipes</h2>
