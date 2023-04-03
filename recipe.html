@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montez" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     <title>Cookbook - Recipe</title>
 
 </head>
@@ -20,13 +21,12 @@
         <nav>
             <div class="linkList">
                 <ul class="font-montserrat headerLinks">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Recipes">Recipes</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="#DayRecipe">Recipe of the Day</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#Recipes">Recipes</a></li>
+                    <li><a href="recipe.html">Recipe of the Day</a></li>
                 </ul>
             </div>
-            ,
+            
             <div class="login">
                 <a href="#login"><i class="bi bi-box-arrow-in-right" style="color: #639c41;"></i>Register</a>
                 <a href="#register"><i class="bi bi-person-fill" style="color: #639c41;"></i>Login</a>
@@ -36,7 +36,7 @@
             <a href="index.html"><img src="image/cook.png" alt="Cookbook Logo"></a>
             <span class="searchBar">
                 <div class="input-group">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">All Categories</button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Dessert</a></li>
@@ -44,15 +44,17 @@
                         <li><a class="dropdown-item" href="#">vegan</a></li>
                     </ul>
                     <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                    <button class="btn btn-outline-dark" type="button" id="button-addon2"><i
                             class="bi bi-search"></i></button>
                 </div>
             </span>
         </span>
     </header>
+    
     <section class="recipeHeader">
         <div class ="recipeWrapper">
             <div class="recipeHeadContent">
+                <hr>
                 <div class="recipeHeaderTxt">
                     <p class="head1 recipeCat recipeOverlay">Dessert | Süßes</p>
                     <p class="head2 recipeName recipeImgFont recipeOverlay">Pancakes mit Ahornsirup</p>
@@ -140,6 +142,64 @@
         </div>
         
     </section>
+
+    <footer>
+        <img src="image/cook.png" alt="cook">
+
+       <div class="fresh">
+           <nav>
+               <ul>
+                   <h2 class="font-montserrat">Fresh Recipe</h2>
+                   <li><a href="#">Wintersalads</a></li>
+                   <li><a href="#">Organic chicken</a></li>
+                   <li><a href="#">Beef and Mutton</a></li>
+                   <li><a href="#">Flavoured Milk</a></li>
+
+               </ul>
+           </nav>
+       </div>
+         <div class="news footerlinks">
+           <nav>
+               <ul>
+                   <h2 class="font-montserrat">In News</h2>
+                   <li><a href="#">Our Blog</a></li>
+                   <li><a href="#">Contest/Sweepsatkes</a></li>
+                   <li><a href="#">Videos</a></li>
+                   <li><a href="#">New Releases</a></li>
+                   <li><a href="#">Newsletters</a></li>
+               </ul>
+           </nav>
+       </div>
+
+         <div class = "about">
+           <nav>
+               <ul>
+                   <h2 class="font-montserrat">About Us</h2>
+                   <li><a href="#">FAQ</a></li>
+                   <li><a href="#">Our Board</a></li>
+                   <li><a href="#">Our Staff</a></li>
+                   <li><a href="#"> Contact Us</a></li>
+                   
+               </ul>
+           </nav>
+       </div> 
+       <div class="media">
+           <h1 class="head1">Join Our Newsletter</h1>
+           <div class="letter">
+               <input type="text" id="Email" placeholder="Email" />
+               <button><i class="bi bi-envelope-at"></i></button>
+
+           </div>
+           <div class="icons">
+               <i class="bi bi-facebook"></i>
+               <i class="bi bi-instagram"></i>
+               <i class="bi bi-twitter"></i>
+               <i class="bi bi-pinterest"></i>
+               <i class="bi bi-youtube"></i>
+           </div>
+       </div>
+           
+   </footer>
 
 </body>
 </html>

@@ -32,6 +32,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
 }
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(75, 167, 63, 0.6);
+  }
+
 header {
     display: flex;
     flex-direction: column;
@@ -75,6 +81,7 @@ header nav li a {
     text-decoration: none;
     padding-right: 1rem;
     color: white;
+    flex-wrap: nowrap;
 }
 
 .login {
@@ -92,6 +99,7 @@ header a:hover {
     margin-top: 0rem;
     background-color: var(--white);
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .searchSection img {
@@ -114,12 +122,14 @@ header a:hover {
     max-width: 30rem;
     padding-right: 5rem;
     padding-left: 5rem;
+    flex-wrap: nowrap;
+    outline-color: var(--green1);
 }
 
 .stageSection {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(90deg, rgba(99,156,64,0.403788515406162) 0%, rgba(199,213,68,0.26934523809523814) 57%, rgba(217,217,217,0.10968137254901966) 87%), url(https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_960_720.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.3019782913165266) 0%, rgba(141,141,141,0.30150210084033612) 50%, rgba(252,252,252,0) 100%), url(https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_960_720.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--green3);
@@ -263,7 +273,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 3vh;
     flex-basis: 30rem;
     /* max-width: 50vw; */
     flex-grow: 1;
@@ -286,15 +296,12 @@ a {
 
 hr {
     border-top: 5px dotted var(--green2);
+    padding-bottom: 0.5rem;
   }
 
 .recipeHeaderTxt p {
     transition: 0.5s;
 }
-
-/* .recipeHeaderTxt:hover {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(141,141,141,0.0) 38%, rgba(252,252,252,0) 100%), url(image/pancakes.jpg);
-} */
 
 .recipeHeaderTxt:hover p {
     opacity: 0;
@@ -306,12 +313,9 @@ hr {
 }
 
 .recipeHeadContent img {
-    /* width: 60vw;
-    height: 30vw; */
     object-fit: cover;
     max-width: 90%;
     height: auto;
-    /* vertical-align: middle; */
 }
 
 .recipeCat {
@@ -331,6 +335,7 @@ hr {
 .recipeHeadContent {
     padding-left: 0rem;
     padding-top: 0rem;
+    flex-wrap: wrap;
 }
 
 .recipeIngredients {
@@ -378,6 +383,7 @@ hr {
     column-gap: 5rem;
     row-gap: 2rem;
     font-family: "Montserrat", sans-serif;
+    padding-bottom: 5rem;
 }
 
 .recipeSteps {
