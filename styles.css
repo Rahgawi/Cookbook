@@ -174,16 +174,31 @@ header a:hover {
 }
 /* gallery start */
 
-/* home explore help  profile nav */
-
-a{
+/* NAV - home explore help  profile */
+a {
     text-decoration: none;
 }
 
- ul li{
-    
+.galleryNav ul li{
+    font-size: 2em;
     list-style: none;
+    color: black;
+    text-decoration: none;
+
 }
+
+.leftlinks nav ul li{
+    font-size: 2em;
+    list-style: none;
+    color: black;
+    
+}
+
+.leftlinks nav ul li{
+    font-size: 1.5em;
+    color: black;
+}
+
 
 .filterNAV{
     display: flex;
@@ -193,9 +208,6 @@ a{
 .galleryNav ul{
     display: flex;
     margin-left: 300px;
-
-
-
 }
 
 .galleryNav ul li{
@@ -206,27 +218,43 @@ a{
     text-decoration: none;
 }
 
-.leftlinks{
-    /* position: absolute; */
-}
 
+/* img grid und hover und shadow */
 .imgkrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    object-fit: cover;
-    /* object-fit: contain; */
-    /* object-fit: scale-down; */
-    /* width: 50vh; */
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/* frames bilder in cover!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.imgkrid img {
+    object-fit: cover;
+    width: 600px;
+    height: 600px;
+    padding: 1px;
+    
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+  .hoverimg img{
+    transition: transform 0.3s;
+  }  
+  
+.hoverimg img:hover {
+    transform: scale(0.9);
+  } 
+  
+.hoverimg {
+    filter: drop-shadow(10px 3px 4px rgba(0, 0, 0, 0.47));
+  } 
+  
 
 .gallerywrapper{
     display: flex;
 }
 
-/* gallery ends */
+/* gallery ends ------------------------------------------*/
 
 /*recipe page start*/
 
